@@ -2,10 +2,7 @@
  * created 07.02.2025
  */
 import React from 'react';
-import type {PropsWithChildren} from 'react';
 
-type pageComponentType = PropsWithChildren<{}>
-
-export default function Page(props: pageComponentType) {
+export default function Page() {
   return <p>Dashboard page</p>;
 }
