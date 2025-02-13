@@ -4,9 +4,8 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 
-type pageComponentType = PropsWithChildren<{
-}>
+type pageComponentType = PropsWithChildren<{}>
 
-export function page(props: pageComponentType) {
-  return <></>;
+export default function Page(props: pageComponentType) {
+  return <p>Customers page</p>;
 }
